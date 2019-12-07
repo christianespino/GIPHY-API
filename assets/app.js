@@ -79,7 +79,7 @@ renderButtons();
 });
 
 // Adding a click event listener to all elements with a class of "movie-btn"
-$(document).on("click", ".movie-btn", displayManufactureInfo);
+$(document).on("click", ".manuf-btn", displayManufactureInfo);
 
 // Calling the renderButtons function to display the intial buttons
 renderButtons();
